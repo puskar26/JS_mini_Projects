@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.appearance {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  margin-right: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.appearance:hover {
+  filter: contrast(80%);
+}
+.bg-color1 {
+  background-color: red;
+}
+.bg-color2 {
+  background-color: green;
+}
+.bg-color3 {
+  background-color: blue;
+}
+.bg-color4 {
+  background-color: orangered;
+}
