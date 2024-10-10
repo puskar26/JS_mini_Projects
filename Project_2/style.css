@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+}
+.elements {
+  margin-bottom: 20px;
+}
+input {
+  padding: 8px;
+  border: none;
+  outline: none;
+  background-color: #f2f2f2;
+  border-radius: 3px;
+}
+input::placeholder {
+  color: darkgray;
+}
+.style-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  font-family: "Poppins", serif;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.button {
+  background-color: rgb(158, 228, 55);
+}
+.reset-button {
+  background-color: rgb(246, 59, 59);
+}
+
+table {
+  table-layout: fixed;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,
+tr,
+td {
+  padding: 10px 25px;
+  text-align: center;
+}
+caption {
+  font-weight: bold;
+}
+th {
+  background-color: #007bff;
+  color: white;
+}
+td {
+  font-size: 0.9rem;
+}
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+tbody tr:nth-child(even) {
+  background-color: white;
+}
