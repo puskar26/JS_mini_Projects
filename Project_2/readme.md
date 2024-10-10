@@ -30,17 +30,20 @@ To run the BMI Calculator locally, follow these steps:
 
 ```bash
 Copy code
-git clone https://github.com/your-username/bmi-calculator.git
+git clone https://github.com/puskar26/JS_mini_Projects.git
 ```
 
 2. Navigate to the Project Directory:
 
 ```bash
-Copy code
-cd bmi-calculator
+cd JS_mini_Projects/Project_2
 ```
 
-3. Open the index.html File: Open the index.html file in your preferred web browser to view the application.
+3. Open the index.html File:
+
+```bash
+Open the index.html
+```
 
 ## How to Use
 

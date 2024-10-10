@@ -16,24 +16,24 @@ This is a simple digital clock built with HTML, CSS, and JavaScript. The clock u
 
 ## Setup and Usage
 
-1. **Clone the repository**:
+1. Clone the Repository:
 
-   ```bash
-   git clone https://github.com/yourusername/digital-clock.git
+```bash
+Copy code
+git clone https://github.com/puskar26/JS_mini_Projects.git
+```
 
-   ```
+2. Navigate to the Project Directory:
 
-2. **Navigate to the project directory**:
+```bash
+cd JS_mini_Projects/Project_3
+```
 
-   ```bash
-   cd digital-clock
+3. Open the index.html File:
 
-   ```
-
-3. **Open the `index.html` file in your web browser**:
-   ```bash
-   open index.html
-   ```
+```bash
+Open the index.html
+```
 
 ## Screenshots
 
