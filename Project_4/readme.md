@@ -47,6 +47,19 @@ To run this project locally, follow these steps:
 
 ## Project Structure
 
+```bash
+Project_4/
+│
+├── index.html
+├── style.css
+├── script.js
+├── 1600w-RXDhbgx0JLs.webp
+├── code.md
+├── interface.png
+├── winner.png
+└── README.md
+```
+
 ## Screenshots
 
 ### Game Interface
