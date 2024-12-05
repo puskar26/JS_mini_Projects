@@ -4,17 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <div class="buttons">
-        <h1>Click on any one of the boxes to change the color accordingly.</h1>
-        <button id="red" class="appearance bg-color1"></button>
-        <button id="green" class="appearance bg-color2"></button>
-        <button id="blue" class="appearance bg-color3"></button>
-        <button id="orangered" class="appearance bg-color4"></button>
+       <div> <h1>Click on any one of the boxes to change the color accordingly.</h1></div></br>
+       <div class="buttons"></div>
+        <div class="btn1" id="btn1"><button id="red" class="appearance bg-color1" type="button" onmouseover="dispcolor1()" onmouseleave="dispout1()"></button></div>
+        <div class="btn2" id="btn2"><button id="green" class="appearance bg-color2" type="button" onmouseover="dispcolor2()" onmouseleave="dispout2()"></button></div>
+        <div class="btn3" id="btn3"><button id="blue" class="appearance bg-color3" type="button" onmouseover="dispcolor3()" onmouseleave="dispout3()"></button></div>
+        <div class="btn4" id="btn4"><button id="orangered" class="appearance bg-color4" type="button" onmouseover="dispcolor4()" onmouseleave="dispout4()"></button></div>
       </div>
+    </div>
+    <div class="show" id="show">
+
     </div>
   </body>
   <script src="script.js"></script>
