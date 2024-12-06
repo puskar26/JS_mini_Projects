@@ -21,3 +21,37 @@ buttons.forEach((button) => {
     }
   });
 });
+
+function dispcolor1(){
+document.getElementById('show').innerText="RED"
+}
+
+function dispout1(){
+document.getElementById('show').innerText=""
+}
+
+function dispcolor2(){
+  document.getElementById('show').innerText="GREEN"
+  }
+  
+  function dispout2(){
+  document.getElementById('show').innerText=""
+  }
+
+
+  function dispcolor3(){
+    document.getElementById('show').innerText="BLUE"
+    }
+    
+    function dispout3(){
+    document.getElementById('show').innerText=""
+    }
+
+
+    function dispcolor4(){
+      document.getElementById('show').innerText="ORANGE_RED"
+      }
+      
+      function dispout4(){
+      document.getElementById('show').innerText=""
+      }
